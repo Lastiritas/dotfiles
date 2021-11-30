@@ -195,3 +195,11 @@ alias fnf='find .  -type f -name'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias grep='grep --color=auto'
+
+# systemd specific
+alias sc='systemctl'
+alias jc='journalctl'
+alias st='sc status'
+alias failing='sc list-units --failed'
+alias start='iso procs start'
+alias restart='iso procs restart'
