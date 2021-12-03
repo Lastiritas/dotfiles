@@ -13,6 +13,12 @@
 # -h
 #     (Human-readable sizes)
 
+### Friday it's movie time!!! 
+if [[ $(date +%u) -eq 5 ]] then
+  export MOVIE="🎬 🎥  "
+  export PS1="$PS1$MOVIE"
+fi
+
 ### List - single column
 
 # One line. With types.
