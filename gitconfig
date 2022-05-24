@@ -171,6 +171,10 @@
 	# This is setup to happen when running fetch/pull, to avoid having to run it
 	# manually as "git remote prune origin".
 	prune = true
+
+[user]
+    name = Rafa Lastiri Monroy
+    email = rafa.lastirimonroy@shopify.com
 	
 [init]
 	# Set branch for git init. GitHub uses main but git uses master unless you override here.
